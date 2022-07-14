@@ -1,3 +1,3 @@
-# LogicaDeProgramacao
+# Logica de Programação
 
-Exercícios práticos das aulas de lógica de programação na plataforma Alura
+Exercícios práticos das aulas de lógica de programação realizadas na plataforma Alura
