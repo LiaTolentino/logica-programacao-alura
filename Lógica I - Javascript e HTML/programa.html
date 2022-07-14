@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Programa</title>
+        <link rel="stylesheet" href="css/reset.css">
+    </head>
+    <body>
+		
+		<script>
+
+			function pulaLinha() {
+
+				document.write("<br><br><br>")	
+			}
+
+			function mostra(frase) {
+
+				document.write(frase);
+				pulaLinha();
+			}
+			
+			var anoAtual = 2022;
+			var idadeFlavio = (anoAtual - 1977);
+			var idadeJoaquim = (anoAtual - 1996);
+			var idadeBarney = (anoAtual - 1976);
+			
+			mostra("Flávio tem " + idadeFlavio + " anos");
+			mostra("Joaquim tem " + idadeJoaquim + " anos");
+			mostra("Barney tem " + idadeBarney + " anos");
+
+			var media = (idadeFlavio + idadeJoaquim + idadeBarney)/3;
+
+			mostra("A média das idades entre eles é: " + Math.round(media));
+
+		</script>
+	</body>
+
+</html>
+
+
+
+

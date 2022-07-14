@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mostra Idade</title>
+        <link rel="stylesheet" href="css/reset.css">
+    </head>
+    
+    <body>
+
+        <script>
+
+        function pulaLinha() {
+            document.write("<br><hr><br>");
+        }
+
+        function mostra(frase) {
+            document.write("<big>" + frase + "</big>");
+            pulaLinha();
+        }
+
+        var ano = 2022;
+        mostra("Eu nasci em : " + (ano - 28));
+        mostra("Davi nasceu em : " + (ano - 37));
+        mostra("Francelly nasceu em : " + (ano - 22));
+
+        </script>
+
+    </body>
+</html>
